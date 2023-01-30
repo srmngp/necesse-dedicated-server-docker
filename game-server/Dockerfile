@@ -19,4 +19,4 @@ COPY --from=downloader /dl/server /necesse-server
 
 WORKDIR /necesse-server
 
-ENTRYPOINT [ "java", "-jar", "Server.jar", "-nogui" ]
+ENTRYPOINT [ "java", "-jar", "Server.jar", "-nogui", "-owner Lagartijo" ]
